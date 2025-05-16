@@ -113,7 +113,12 @@ input:invalid{
    font-size: 1rem;
    border: none;
    border-radius: 10px;
+   cursor: pointer;
    color: white;
+}
+button:hover{
+    background: #6a7e59;
+    box-shadow: 5px 5px 5px #bbb;
 }
 .form-action p {
     margin-top: 2rem;
