@@ -19,6 +19,7 @@
 }
 .logo-container {
     background: url("assets/images/halie-west-bg.jpg");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,7 +28,7 @@
 }
 .logo{
     display: flex;
-    margin-top: 100px;
+    margin-top: 10rem;
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, .4);
