@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('assets/fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('assets/fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+
+
+}
+.logo-container {
+    background: url("assets/images/halie-west-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    flex: 1;
+}
+.logo{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+}
+.logo img{
+  
+   width: 5rem;
+}
+.logo h1 {
+   
+    font-family: norsebold;
+    font-size: 5rem;
+}
+
+.credit{
+    text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+
+.form-container {
+    flex: 2;
+    background: #eee;
+    padding: 5rem 2rem;
+    color: black;
+}
+.form-container p {
+    font-size: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-body{
+    padding: 1.5rem;
+    background: white;
+    margin: 1rem -2rem;
+    box-shadow: 15px 15px 25px #bbb;
+    padding: 0 2rem;
+}
+.form-body h3 {
+    font-size: 1.5rem;
+   
+}
+
+.form-row{
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 2rem;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    text-transform: uppercase;
+    font-size: .65rem;
+    letter-spacing: .15ch;
+}
+input{
+    border: #e5e7eb solid 1px;
+    padding: .15rem;
+    font-size: 18px;
+    border-radius: 3px;
+}
+input:focus{
+    box-shadow:  5px 5px 5px #bbb;
+    border: .5px solid blue;
+}
+input:invalid{
+    border: .5px solid red;
+}
+
+
+.form-action button{
+   margin-top: 2rem;
+   background-color: #596D48;
+   padding: 1rem 2rem;
+   font-size: 1rem;
+   border: none;
+   border-radius: 10px;
+   color: white;
+}
+.form-action p {
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.form-action a {
+    color: #596D48;
+    font-weight: bold;
+}
